@@ -33,7 +33,6 @@ public class InspecionarClasse{
     public static Object instanciarClasse(Class<?> classe, Object[] lista){
         
         try {
-
             Constructor<?> constr = classe.getDeclaredConstructors()[0];
 
             Object obj = (Object) constr.newInstance(lista);
@@ -50,7 +49,6 @@ public class InspecionarClasse{
     public static Object instanciarClasse(Class<?> classe){
 
         try {
-
             Constructor<?> constr = classe.getDeclaredConstructors()[0];
             Object obj = (Object) constr.newInstance();
             return obj;

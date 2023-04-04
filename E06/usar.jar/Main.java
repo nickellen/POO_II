@@ -5,8 +5,8 @@ public class programaTeste {
 
 	public static void main(String[] args) {
 		
-		Funcao2 func = new Funcao2(2.5,5.4,3.5);	
-		Class<?> classe = func.getClass();
+		// func = new ;	
+		//Class<?> classe = func.getClass();
 		imprimeMetodos(classe);
 		imprimeConstrutores(classe);	
 	}

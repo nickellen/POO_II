@@ -1,12 +1,14 @@
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 
+import br.com.headjava.CalculadoraSimples;
+
 public class programaTeste {
 
 	public static void main(String[] args) {
 		
-		// func = new ;	
-		//Class<?> classe = func.getClass();
+		CalculadoraSimples calc = new CalculadoraSimples(5,1);	
+		Class<?> classe = calc.getClass();
 		imprimeMetodos(classe);
 		imprimeConstrutores(classe);	
 	}
